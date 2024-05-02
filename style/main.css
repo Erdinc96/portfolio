@@ -1,0 +1,42 @@
+.container__img{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+
+    img{
+        border-radius: 50%;
+        opacity: 85%;
+    }
+
+    img:hover{
+        border-radius: 0;
+        transition: 1.5s;
+        opacity: 100%;
+    }
+
+    h1{
+        padding-top: 1rem;
+        padding-bottom: .1rem;
+        font-weight: 700;
+    }
+
+    h2{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+}
+
+.container__aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+    p{
+        width: 80%;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+}

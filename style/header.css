@@ -1,0 +1,12 @@
+header{
+    background-color: rgb(230, 158, 51);
+    border-bottom: 1px solid black;
+}
+
+.container__header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+}
+
