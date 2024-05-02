@@ -44,7 +44,9 @@ footer{
             transition: .3s ease-out;
             cursor: pointer;
         }
-        
     }
+}
 
+.container__footer:hover{
+    cursor: alias;
 }

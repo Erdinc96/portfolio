@@ -39,4 +39,13 @@
         text-align: center;
         padding-bottom: 2rem;
     }
+
+}
+
+.container__img:hover{
+    cursor: alias;
+}
+
+.container__aboutme:hover{
+    cursor: alias;
 }
